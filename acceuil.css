@@ -1,0 +1,74 @@
+body{
+    background-color: rgba(255, 174, 0, 0.795);
+}
+
+.form{  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    background-color: rgb(228, 118, 15);
+    padding: 10px;
+    width: 33%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 12px 12px 5px rgb(255, 51, 0);
+    transition: transform 500ms;
+}
+
+form:hover{
+    background-color: rgb(228, 118, 15);
+    padding: 10px;
+    width: 33%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 12px 12px 5px rgb(255, 51, 0);
+    transform: scale(1.1);
+}
+
+
+input[type = "text"], input[type = "password"] {
+    width: 98%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+}
+
+.conteneur{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div[class = "conversation"]{
+    width: 100%;
+    /* height: 90%; */
+    background-color: rgb(255, 51, 0);
+    padding: 10px;
+    width: 33%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -12px 12px 5px rgb(255, 102, 0);
+}
+
+input[type = "submit"]{
+    background-color: rgb(255, 51, 0);
+    border : none;
+    width: 30%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type = "submit"]:hover{
+    background-color: rgb(255, 51, 0);
+    border : none;
+    width: 30%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(102, 20, 0);
+}
